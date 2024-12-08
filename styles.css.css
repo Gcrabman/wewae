@@ -1,0 +1,149 @@
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #29692d;
+    color: white;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 50;
+    display: inline-block;
+}
+
+nav ul {
+    list-style: none;
+    display: inline-block;
+    margin-left: 50px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.featurednews {
+    margin-top: 30px;
+}
+
+.featurednews h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+
+}
+
+.featuredarticle {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.featurednews img{ 
+    width: 50%;
+    height: auto;
+}
+
+.featuredarticle img {
+    width: 50%;
+    height: auto;
+}
+
+.featuredcontent {
+    padding: 20px;
+    width: 45%;
+}
+
+.featuredarticle h3 {
+    font-size: 1.6em;
+    margin-bottom: 10px;
+}
+
+.featuredarticle p {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+}
+
+.featuredarticle a {
+    color: #007BFF;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.featuredarticle a:hover {
+    text-decoration: underline;
+}
+
+.latest-- {
+    margin-top: 50px;
+}
+
+.latestarticles h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.articlegrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.latestarticles article {
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 1px 4px 6px rgb(0, 0, 0);
+    padding: 20px;
+}
+
+.latestarticles img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.latestarticles h3 {
+    font-size: 1.5em;
+    margin-top: 10px;
+}
+
+.latestarticles p {
+    font-size: 30;
+    margin-top: 10px;
+}
+
+.latestarticles a {
+    text-decoration: none;
+    color: #007BFF;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.latestarticles a:hover {
+    text-decoration: underline;
+}
+
+

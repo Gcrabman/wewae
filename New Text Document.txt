@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News Today</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <h1>News Today</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">World</a></li>
+                    <li><a href="#">Politics</a></li>
+                    <li><a href="#">Technology</a></li>
+                    <li><a href="#">Entertainment</a></li>
+                    <li><a href="#">Sports</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <div class="container">
+            <section class="featured">
+                <h2>Featured News</h2>
+                <div class="featured-news">
+                    <article class="news-item">
+                        <img src="https://via.placeholder.com/400x250" alt="Featured News Image">
+                        <div class="news-content">
+                            <h3>Breaking News: Major Event Happens</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod urna et velit gravida, nec ullamcorper urna pellentesque.</p>
+                            <a href="#">Read More</a>
+                        </div>
+                    </article>
+                </div>
+            </section>
+
+            <!-- News Articles -->
+            <section class="news-articles">
+                <h2>Latest Articles</h2>
+                <div class="article-grid">
+                    <article class="news-item">
+                        <img src="https://via.placeholder.com/400x250" alt="News Image">
+                        <div class="news-content">
+                            <h3>Article 1 Headline</h3>
+                            <p>Brief description of the article. This is a placeholder text.</p>
+                            <a href="#">Read More</a>
+                        </div>
+                    </article>
+
+                    <article class="news-item">
+                        <img src="https://via.placeholder.com/400x250" alt="News Image">
+                        <div class="news-content">
+                            <h3>Article 2 Headline</h3>
+                            <p>Brief description of the article. This is a placeholder text.</p>
+                            <a href="#">Read More</a>
+                        </div>
+                    </article>
+
+                    <article class="news-item">
+                        <img src="https://via.placeholder.com/400x250" alt="News Image">
+                        <div class="news-content">
+                            <h3>Article 3 Headline</h3>
+                            <p>Brief description of the article. This is a placeholder text.</p>
+                            <a href="#">Read More</a>
+                        </div>
+                    </article>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 News Today. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
