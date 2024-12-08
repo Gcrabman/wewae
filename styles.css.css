@@ -36,7 +36,7 @@ nav ul li {
 nav ul li a {
     color: white;
     text-decoration: none;
-    font-size: 1.2em;
+    font-size: 22;
 }
 
 nav ul li a:hover {
@@ -45,14 +45,8 @@ nav ul li a:hover {
 
 .featurednews {
     margin-top: 30px;
+    font-size: 20;
 }
-
-.featurednews h2 {
-    font-size: 2em;
-    margin-bottom: 20px;
-
-}
-
 .featuredarticle {
     display: flex;
     justify-content: space-between;
@@ -75,41 +69,30 @@ nav ul li a:hover {
     width: 45%;
 }
 
-.featuredarticle h3 {
-    font-size: 1.6em;
+.featuredarticle {
+    font-size: 20;
     margin-bottom: 10px;
 }
-
-.featuredarticle p {
-    font-size: 1.1em;
-    margin-bottom: 10px;
-}
-
 .featuredarticle a {
     color: #007BFF;
     text-decoration: none;
     font-weight: bold;
 }
-
 .featuredarticle a:hover {
     text-decoration: underline;
 }
-
 .latest-- {
     margin-top: 50px;
 }
-
 .latestarticles h2 {
-    font-size: 2em;
+    font-size: 20;
     margin-bottom: 20px;
 }
-
 .articlegrid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     gap: 20px;
 }
-
 .latestarticles article {
     background-color: white;
     border-radius: 8px;
@@ -117,23 +100,19 @@ nav ul li a:hover {
     box-shadow: 1px 4px 6px rgb(0, 0, 0);
     padding: 20px;
 }
-
 .latestarticles img {
     width: 100%;
     height: auto;
     border-radius: 8px;
 }
-
-.latestarticles h3 {
-    font-size: 1.5em;
+.latestarticles {
+    font-size: 20;
     margin-top: 10px;
 }
-
 .latestarticles p {
     font-size: 30;
     margin-top: 10px;
 }
-
 .latestarticles a {
     text-decoration: none;
     color: #007BFF;
@@ -141,7 +120,6 @@ nav ul li a:hover {
     display: inline-block;
     margin-top: 10px;
 }
-
 .latestarticles a:hover {
     text-decoration: underline;
 }
